@@ -1,0 +1,42 @@
+.box{
+    background-color: dodgerblue;
+    padding: 40px;
+    margin: 40px;
+    width: 40px ;
+    font-size: 80px;
+    color: white;
+}
+
+.boxes{
+/* Grid System */
+    display:grid;
+    /* grid-template-rows: 4px repeat(auto-fill, 100px) 300px; */
+    grid-template-columns: repeat(4,6fr);
+    grid-template-rows: 500px;
+
+    /* grid-template-columns: auto; */
+    /* FlexBox  */
+    /* display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    flex-direction: row-reverse; */
+}
+
+.Bidix{
+    text-align: left;
+}
+.Dhex{
+    text-align: center;
+}
+.Midig{
+    text-align: right;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    border: 2px solid red;
+};

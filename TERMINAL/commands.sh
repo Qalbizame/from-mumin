@@ -1,0 +1,14 @@
+pwd (print Work Director) = iisheeg halkaan joogo
+ls(lists) = iisoo daabac Halkaan joogo
+cd(change Director) = i badal goobta aan joogo
+cd ..(change director) = dib ii celi
+mkdir (Make Director)= ii samee folder
+rmdir (Remove Director) = iga saar Folder ka
+clear = iga masax shaashadda 
+start . = wa iso fur dhamaan meshan
+touch fileName.ex = ii samee file
+rm -rf fileName.ex = iga saar file ka
+mv filename.ex filename.ex = iga badal magaca file ka;
+mkdir '' = ii samee Folder leh laba jumlad iyo wixii ka badan
+cp = ii copy garee fileka ama folderka
+mv = ii cut garee file ka ama folderka

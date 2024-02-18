@@ -1,0 +1,102 @@
+/* .card-green{
+    background-color: seagreen;
+    width: 80%;
+    padding: 40px;
+    margin: 10px;
+} */
+
+/* 'sm': '640px';
+'md': "768px";
+'lg': "1024px",
+"xl": "1280px" */
+
+/* Max Width */
+/* @media (max-width:768px){
+    .card-green{
+        background-color: red;
+    }
+} */
+
+
+/* Min Width */
+@media (min-width:700px){
+    .card-green{
+        background-color: orange;
+    }
+}
+
+
+
+/* Tusaale Sax ah */
+.green{
+    background-color: seagreen;
+    padding: 40px;
+    margin: 40px;
+    width: 80%;
+    display: none;
+}
+
+.orange{
+    background-color: orange;
+    padding: 40px;
+    margin: 40px;
+    width: 80%;
+    display: none;
+}
+
+.red{
+    background-color: red;
+    padding: 40px;
+    margin: 40px;
+    width: 80%;
+    display: none;
+}
+
+
+@media (min-width:768px){
+    .green{
+        display: block;
+    }
+}
+
+@media (min-width:780px){
+    .orange{
+        display: block;
+    }
+}
+
+@media (min-width:800px){
+    .red{
+        display: block;
+    }
+}
+
+.Mohamed{
+    font-size: 150px;
+    display: none;
+}
+.Abdi{
+    font-size: 100px;
+    display: none;
+}
+.Ahmed{
+    font-size: 50px;
+    display: none;
+}
+
+@media (min-width:768px){
+    .Mohamed{
+        display: block;
+    }
+}
+
+@media (min-width:780px){
+    .Abdi{
+        display: block;
+    }
+}
+@media (min-width:800px){
+    .Ahmed{
+        display: block;
+    }
+}

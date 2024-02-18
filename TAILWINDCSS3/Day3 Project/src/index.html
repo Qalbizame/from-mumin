@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TailwindCss</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+
+<body class="bg-indigo-600">
+
+    <div class="header bg-white flex justify-between p-4 w-full fixed -translate-y-8">
+        <div class="logo max-md:text-3xl max-md:font-bold max-md:text-center uppercase max-md:underline max-md:m-auto max-md:justify-center max-md:text-indigo-600">
+            <h1>Logo</h1>
+        </div>
+        <div class="menu">
+            <nav class="flex gap-8 max-md:hidden text-indigo-600 font-bold">
+                <ul>
+                    <li class="bg-indigo-600 text-white rounded-lg cursor-pointer px-2">Home</li>
+                </ul>
+                <ul>
+                    <li class="hover:bg-indigo-600 hover:text-white hover:rounded-lg hover:cursor-pointer hover:px-2">About</li>
+                </ul>
+                <ul>
+                    <li class="hover:bg-indigo-600 hover:text-white hover:rounded-lg hover:px-2 hover:cursor-pointer">Contact</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="btns flex gap-2 max-md:hidden">
+            <div class="login bg-green-600 px-4 text-white rounded-lg">
+                <a href="#">Login</a>
+            </div>
+            <div class="singout bg-red-600 px-4 text-white rounded-lg">
+                <a href="singout">singOut</a>
+            </div>
+        </div>
+    </div>
+    <div class="card translate-y-24 bg-white gap-8 max-md:bg-indigo-600 max-md:border-2 max-md:border-bg-white max-md:text-white max-md:shadow-md max-md:shadow-gray-200  w-[500px] m-8  flex max-md:flex-col max-md:w-[300px] max-md:p-4 max-md:hover:scale-105 max-md:transition-all max-md:cursor-pointer max-md:hover:animate-spin animate-pulse">
+        <div class="image rounded-lg">
+         <img src="./Images/man.jpg" class="w-72  h-full max-md:w-[100px] max-md:rounded-full max-md:justify-center max-md:m-auto " alt="">
+        </div>
+        <div class="content">
+         <h1>Mohamed Abdi</h1> 
+         <pre class="text-gray-300">Developer @MouminAcademy</pre>
+         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui sapiente alias, dolorem consectetur ut hic unde vero labore perspiciatis iure cum magni! Atque mollitia dolorum magnam incidunt at repudiandae facere!     </p>
+        </div>
+     </div>
+</body>
+
+</html>

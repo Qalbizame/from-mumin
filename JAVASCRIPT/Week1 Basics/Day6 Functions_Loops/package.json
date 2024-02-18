@@ -1,0 +1,16 @@
+{
+  "name": "day6-functions_loops",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Function.js",
+  "scripts": {
+    "loop": "nodemon Loop.js",
+    "function": "nodemon Function.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.3"
+  }
+}

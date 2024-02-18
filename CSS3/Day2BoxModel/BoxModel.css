@@ -1,0 +1,56 @@
+/* Universal Selector */
+body {
+    background-color: indigo;
+}
+
+/* Class Selector */
+.hargeisa-somaliland {
+    background-color: white;
+    color: indigo;
+    font-size: 33px;
+}
+
+/* Id Selector */
+#jigjiga {
+    background-color: dodgerblue;
+    color: white;
+    font-size: 44px;
+}
+
+/* BoxModel */
+.box-model{
+    background-color: white;
+    padding: 40px;
+    margin: 40px;
+    border: 4px solid red;
+    border: 4px double red;
+    border: 4px dotted red;
+    border: 4px dashed red;
+    border: 4px wavy red;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+
+.card{
+    background-color: white;
+    width: 240px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 4px 4px 18px whitesmoke;
+    transition: all ease 0.4s;
+}
+.card:hover{
+    scale: 1.1;
+    transition: all ease 0.4s;
+}
+.card img{
+    width: 80px;
+    border-radius: 80px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    transform: translateX(70px)translateY(10px);
+}

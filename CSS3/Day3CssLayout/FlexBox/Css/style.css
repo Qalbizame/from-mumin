@@ -1,0 +1,41 @@
+body{
+    background-color: indigo;
+}
+
+/* Madaxwaynayaal.  */
+.card{
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 20px;
+    transition: all ease 0.4s;
+    margin: 10px;
+    transform: translateY(20px);
+}
+
+.card img{
+    border-radius: 500px;
+    width: 150px;
+    height: 150px;
+    transform: translateX(50px);
+}
+.card h1{
+    font-size: 29px;
+}
+
+.card:hover{
+    box-shadow: 4px 4px 14px whitesmoke;
+    scale: 1.03;
+    transition: all ease 0.4s;
+    cursor: pointer;
+    background-color: indigo;
+    color: white;
+    border: 2px solid white;
+}
+
+.cards{
+    display: flex;  
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center ;
+}

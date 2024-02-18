@@ -1,0 +1,16 @@
+{
+  "name": "day5-conditions_objects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "objects": "nodemon objects.js",
+    "conditions": "nodemon conditions.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.3"
+  }
+}

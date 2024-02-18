@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TailwindCssDOM</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./TailwindCssDOM.js"defer></script>
+    <script src="./Counter.js" defer></script>
+</head>
+<body>
+    <h1>Hello World TailwindCssDOM</h1>
+    <button onclick="App()">Click</button>
+    <p></p>
+
+
+    <!-- Counter Handling -->
+    <button class="bg-white text-indigo-800 px-4 mt-4 m-2 rounded-lg" onclick="Count()" >CountUp:</button>
+
+    <button class="bg-white px-4 rounded-md" id="count">0</button>
+    <button class="bg-white text-indigo-800 px-4 mt-4 m-2 rounded-lg" onclick="CountDown()" >CountDown:</button>
+</body>
+</html>

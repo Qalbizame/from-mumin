@@ -1,0 +1,98 @@
+body{
+    background-color: indigo;
+}
+
+.scaleUp{
+    background-color: white;
+    padding: 50px;
+    margin: 30px;
+    border-radius: 20px;
+    width: 50px;
+    animation-name: scaleUp;
+    animation-duration:1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes scaleUp{
+    0%{
+        scale: 1.5;
+    }
+    50%{
+        scale: 1.1;
+    }
+    100%{
+        scale: 1.5;
+    }
+}
+
+.translateLeft{
+    background-color: dodgerblue;
+    padding: 50px;
+    margin: 30px;
+    border-radius: 20px;
+    width: 50px;
+    animation-name: transformLeftAndRight;
+    animation-duration: 4s;
+    animation-iteration-count: infinite ;
+}
+
+@keyframes transformLeftAndRight{
+    0%{
+        transform: translateX(700px);
+    }
+    50%{
+        transform: translateX(-30px);
+    }
+    100%{
+        transform: translateX(700px);
+    }
+}
+
+.rotation{
+    background-color: orange;
+    padding: 50px;
+    margin: 30px;
+    border-radius: 20px;
+    width: 50px;
+    animation-name: rotation;
+    animation-duration: 0.9s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotation {
+    0%{
+        rotate: 360deg;
+    }
+    50%{
+        rotate: 45deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
+
+.changeColors{
+    background-color: springgreen;
+    padding: 50px;
+    margin: 30px;
+    border-radius: 20px;
+    width: 50px;
+    animation-name: changeColor;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes changeColor {
+    0%{
+            background-color: white;
+    }
+    50%{
+        background-color: red;
+    }
+    75%{
+        background-color: springgreen;
+    }
+    100%{
+        background-color: white;
+    }
+}
